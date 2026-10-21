@@ -1,0 +1,15 @@
+{
+  "name": "abbreviations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Аббревиатуры — офлайн-игра в аббревиатуры для компании",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/game.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "check": "node --check public/app.js && node --check public/game.js && node --check public/sw.js"
+  },
+  "engines": { "node": ">=20" }
+}
